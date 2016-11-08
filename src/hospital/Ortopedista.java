@@ -10,6 +10,10 @@ package hospital;
  * @author Userpl022pc19
  */
 public class Ortopedista extends Medico {
+
+    public Ortopedista(int anDouturamento, String instEnsino) {
+        super(anDouturamento, instEnsino);
+    }
     
     public void analisar(Imageologia raiox) {}
     

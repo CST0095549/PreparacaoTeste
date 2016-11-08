@@ -10,6 +10,10 @@ package hospital;
  * @author Userpl022pc19
  */
 public class Neorulogista extends Medico {
+
+    public Neorulogista(int anDouturamento, String instEnsino) {
+        super(anDouturamento, instEnsino);
+    }
     
     public void analisar(Imageologia tac) {}
     

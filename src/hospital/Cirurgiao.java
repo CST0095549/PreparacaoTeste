@@ -10,6 +10,10 @@ package hospital;
  * @author Userpl022pc19
  */
 public class Cirurgiao extends Medico {
+
+    public Cirurgiao(int anDouturamento, String instEnsino) {
+        super(anDouturamento, instEnsino);
+    }
     
     public void operar(Utente utente) {}
     
